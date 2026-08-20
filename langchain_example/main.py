@@ -4,7 +4,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 import google.generativeai as genai
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCnGPFtXBmhbo_rYRBCVEtTzuYb0VGXd7o"
+os.environ["GOOGLE_API_KEY"] = ""
 
 # 1. Define the Prompt Template
 prompt = ChatPromptTemplate.from_messages([
